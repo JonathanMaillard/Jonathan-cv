@@ -1,0 +1,24 @@
+body{
+    grid-template-columns: 300px auto;
+    grid-template-rows: 200px auto;
+    margin: 0;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    
+
+    background-color: aqua;
+    margin-top: 0;
+}
+
+figure img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+aside{
+    grid-column-start: 1;
+}
