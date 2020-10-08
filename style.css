@@ -1,9 +1,11 @@
 body{
-    display: grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #222222;
+
+    display: grid;
     grid-template-columns: 24% 38% 38%;
     grid-template-rows: 200px auto auto;
+
     margin: 0;
 }
 
@@ -26,6 +28,7 @@ header{
 figure{
     grid-column-start: 1;
     grid-row-start: 1;
+
     display: flex;
     align-items: center;
 }
@@ -38,14 +41,16 @@ figure img{
 header .title{
     grid-column-start: 2;
     grid-row-start: 1;
+
     display: flex;
     align-items: center;
 }
 
 header .title h1{
     font-size: 36px;
-    margin-bottom: -15px;
     font-family: 'Montserrat', sans-serif;
+
+    margin-bottom: -15px;
 }
 header .title h2{
     font-family: 'Montserrat', sans-serif;
@@ -53,38 +58,50 @@ header .title h2{
 
 aside{
     border-right: 2px solid red;
+
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 4;
+
     background-color: #eeeeee;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    padding: 0 20px;
+
     word-wrap: break-word;
 }
 
 .exp{
     grid-column-start: 2;
     grid-row-start: 2;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    padding: 0 20px;
 }
 
 .study{
     grid-column-start: 2;
     grid-row-start: 3;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    padding: 0 20px;
 }
 
 .knowledge{
     grid-column-start: 3;
     grid-row-start: 2;
+
+    padding: 0 20px;
 }
 
 
 h3{
+    background-color: orange;
+    border-radius: 15px;
+
+    color: #ffffff;
     font-family: 'Sansita Swashed', cursive;
     font-size: 25px;
+
+    padding: 2px 0;
+    
     text-align: center;
 }
 
